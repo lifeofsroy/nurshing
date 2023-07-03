@@ -1,0 +1,463 @@
+@media screen and (min-width: 240px) and (max-width: 500px) {
+  body {
+    padding: 75px 0 0 0;
+  }
+  .toggle_icon {
+    display: block;
+    float: right;
+    width: auto;
+    margin: 6px 0 0 10px;
+    position: relative;
+    height: 34px;
+    padding: 6px 0px;
+    z-index: 10;
+  }
+  .toggle_icon b {
+    width: 26px;
+    height: 3px;
+    background: #000;
+    float: left;
+    position: relative;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .toggle_icon b:after {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background: #000;
+    right: 0;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    bottom: -10px;
+  }
+  .toggle_icon b:before {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background: #000;
+    right: 0;
+    bottom: -20px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .toggle_icon b.creatCross {
+    -webkit-transform: rotate(45deg) translate(0px, 0);
+            transform: rotate(45deg) translate(0px, 0);
+    margin: 12px 0 0 0;
+  }
+  .toggle_icon b.creatCross:after {
+    opacity: 0;
+  }
+  .toggle_icon b.creatCross:before {
+    -webkit-transform: rotate(-90deg) translate(19px, 0px);
+            transform: rotate(-90deg) translate(19px, 0px);
+  }
+  .navListing {
+    position: fixed !important;
+    background: #000;
+    width: 70%;
+    height: 100vh;
+    top: 0;
+    left: -70%;
+    overflow: auto;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  .navListing li {
+    width: 100%;
+    float: left;
+    padding: 12px 20px !important;
+    border-bottom: 1px solid #333;
+    position: relative;
+  }
+  .navListing li a {
+    color: #fff !important;
+  }
+  .navListing li span {
+    position: absolute;
+    color: #8b8b8b;
+    right: 17px;
+    top: 11px;
+  }
+  .navListing li .sub-menu {
+    width: 100% !important;
+    float: left;
+    position: relative !important;
+    top: 0 !important;
+    margin: 12px 0 0 0;
+    background: #333 !important;
+  }
+  .navListing li .sub-menu li {
+    border-bottom: 1px solid #565656 !important;
+  }
+  .navListing li .sub-menu li a {
+    padding: 0 0 !important;
+  }
+  .activeMainNav {
+    left: 0;
+  }
+  header nav a.topLogo {
+    float: left;
+    max-width: 145px !important;
+  }
+  header nav .contactBtn {
+    margin: 6px 9px 0 0 !important;
+    padding: 7px 19px !important;
+  }
+  .topSlider article p {
+    display: none;
+  }
+  .topSlider article h1 {
+    font-size: 16px;
+  }
+  .topSlider article a {
+    font-size: 12px;
+    padding: 5px 17px;
+    margin: 5px 0 0 0;
+  }
+  .aboutWrap .txtWrp {
+    margin: 30px 0 0 0;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn article h4 {
+    margin: 30px 0 0 0;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn picture img {
+    width: 100%;
+    height: 345px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn {
+    margin: 30px 0;
+  }
+  .facilityWrap .txtWrp {
+    margin: 40px 0 0 0;
+  }
+  .testimonialWrap main {
+    min-height: 310px;
+  }
+  .topSlider .arrow {
+    display: none;
+  }
+  .page404Cont h1 {
+    font-size: 113px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 743px) {
+  body {
+    padding: 75px 0 0 0;
+  }
+  .toggle_icon {
+    display: block;
+    float: right;
+    width: auto;
+    margin: 6px 0 0 10px;
+    position: relative;
+    height: 34px;
+    padding: 6px 0px;
+    z-index: 10;
+  }
+  .toggle_icon b {
+    width: 26px;
+    height: 3px;
+    background: #000;
+    float: left;
+    position: relative;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .toggle_icon b:after {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background: #000;
+    right: 0;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    bottom: -10px;
+  }
+  .toggle_icon b:before {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background: #000;
+    right: 0;
+    bottom: -20px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .toggle_icon b.creatCross {
+    -webkit-transform: rotate(45deg) translate(0px, 0);
+            transform: rotate(45deg) translate(0px, 0);
+    margin: 12px 0 0 0;
+  }
+  .toggle_icon b.creatCross:after {
+    opacity: 0;
+  }
+  .toggle_icon b.creatCross:before {
+    -webkit-transform: rotate(-90deg) translate(19px, 0px);
+            transform: rotate(-90deg) translate(19px, 0px);
+  }
+  .navListing {
+    position: fixed !important;
+    background: #000;
+    width: 70%;
+    height: 100vh;
+    top: 0;
+    left: -70%;
+    overflow: auto;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  .navListing li {
+    width: 100%;
+    float: left;
+    padding: 12px 20px !important;
+    border-bottom: 1px solid #333;
+    position: relative;
+  }
+  .navListing li a {
+    color: #fff !important;
+  }
+  .navListing li span {
+    position: absolute;
+    color: #8b8b8b;
+    right: 17px;
+    top: 11px;
+  }
+  .navListing li .sub-menu {
+    width: 100% !important;
+    float: left;
+    position: relative !important;
+    top: 0 !important;
+    margin: 12px 0 0 0;
+    background: #333 !important;
+  }
+  .navListing li .sub-menu li {
+    border-bottom: 1px solid #565656 !important;
+  }
+  .navListing li .sub-menu li a {
+    padding: 0 0 !important;
+  }
+  .activeMainNav {
+    left: 0;
+  }
+  header nav a.topLogo {
+    float: left;
+    max-width: 145px !important;
+  }
+  header nav .contactBtn {
+    margin: 6px 9px 0 0 !important;
+    padding: 7px 19px !important;
+  }
+  .topSlider article p {
+    display: none;
+  }
+  .topSlider article h1 {
+    font-size: 16px;
+  }
+  .topSlider article a {
+    font-size: 12px;
+    padding: 5px 17px;
+    margin: 5px 0 0 0;
+  }
+  .aboutWrap .txtWrp {
+    margin: 30px 0 0 0;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn article h4 {
+    margin: 30px 0 0 0;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn picture img {
+    width: 100%;
+    height: 345px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn {
+    margin: 30px 0;
+  }
+  .facilityWrap .txtWrp {
+    margin: 40px 0 0 0;
+  }
+  .testimonialWrap main {
+    min-height: 310px;
+  }
+  .topSlider .arrow {
+    display: none;
+  }
+  .page404Cont h1 {
+    font-size: 113px;
+  }
+}
+
+@media screen and (min-width: 744px) and (max-width: 899px) {
+  body {
+    padding: 75px 0 0 0;
+  }
+  .toggle_icon {
+    display: block;
+    float: right;
+    width: auto;
+    margin: 6px 0 0 10px;
+    position: relative;
+    height: 34px;
+    padding: 6px 0px;
+    z-index: 10;
+  }
+  .toggle_icon b {
+    width: 26px;
+    height: 3px;
+    background: #000;
+    float: left;
+    position: relative;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .toggle_icon b:after {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background: #000;
+    right: 0;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    bottom: -10px;
+  }
+  .toggle_icon b:before {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background: #000;
+    right: 0;
+    bottom: -20px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .toggle_icon b.creatCross {
+    -webkit-transform: rotate(45deg) translate(0px, 0);
+            transform: rotate(45deg) translate(0px, 0);
+    margin: 12px 0 0 0;
+  }
+  .toggle_icon b.creatCross:after {
+    opacity: 0;
+  }
+  .toggle_icon b.creatCross:before {
+    -webkit-transform: rotate(-90deg) translate(19px, 0px);
+            transform: rotate(-90deg) translate(19px, 0px);
+  }
+  .navListing {
+    position: fixed !important;
+    background: #000;
+    width: 70%;
+    height: 100vh;
+    top: 0;
+    left: -70%;
+    overflow: auto;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  .navListing li {
+    width: 100%;
+    float: left;
+    padding: 12px 20px !important;
+    border-bottom: 1px solid #333;
+    position: relative;
+  }
+  .navListing li a {
+    color: #fff !important;
+  }
+  .navListing li span {
+    position: absolute;
+    color: #8b8b8b;
+    right: 17px;
+    top: 11px;
+  }
+  .navListing li .sub-menu {
+    width: 100% !important;
+    float: left;
+    position: relative !important;
+    top: 0 !important;
+    margin: 12px 0 0 0;
+    background: #333 !important;
+  }
+  .navListing li .sub-menu li {
+    border-bottom: 1px solid #565656 !important;
+  }
+  .navListing li .sub-menu li a {
+    padding: 0 0 !important;
+  }
+  .activeMainNav {
+    left: 0;
+  }
+  header nav a.topLogo {
+    float: left;
+    max-width: 145px !important;
+  }
+  header nav .contactBtn {
+    margin: 6px 9px 0 0 !important;
+    padding: 7px 19px !important;
+  }
+  .topSlider article p {
+    display: none;
+  }
+  .topSlider article h1 {
+    font-size: 16px;
+  }
+  .topSlider article a {
+    font-size: 12px;
+    padding: 5px 17px;
+    margin: 5px 0 0 0;
+  }
+  .aboutWrap .txtWrp {
+    margin: 30px 0 0 0;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn article h4 {
+    margin: 30px 0 0 0;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn picture img {
+    width: 100%;
+    height: 345px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .courseComwrp .crsCompleteWrp main .coursesBlockAnn {
+    margin: 30px 0;
+  }
+  .facilityWrap .txtWrp {
+    margin: 40px 0 0 0;
+  }
+  .testimonialWrap main {
+    min-height: 310px;
+  }
+  .topSlider .arrow {
+    display: none;
+  }
+  .page404Cont h1 {
+    font-size: 113px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  header nav a.topLogo {
+    max-width: 155px;
+  }
+  header nav .contactBtn {
+    margin: 10px 0 0 6px;
+    padding: 6px 9px;
+    font-size: 11px;
+  }
+  header nav .navListing li {
+    padding: 16px 6px;
+  }
+  header nav .navListing li a {
+    font-size: 12px;
+  }
+}
